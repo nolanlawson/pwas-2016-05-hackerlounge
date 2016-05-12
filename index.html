@@ -45,7 +45,7 @@
 				<section>
           <h2>Progressive Web Apps</h2>
             <h4>@nolanlawson</h4>
-          
+
         </section>
 
 				<section>
@@ -53,16 +53,23 @@
 
 					<img class="no-border" src="img/me.jpg" alt="photo of Nolan Lawson"/>
 
-					
+
 				</section>
 
         <section>
 
           <img class="no-border" style="display:inline-block" height="150" src="img/pouchdb.png" alt="pouchdb"/><br/>
-          <img class="no-border" style="display:inline-block" height="100" src="img/local-npm.png" alt="local-npm"/><br/>
-          <img class="no-border" style="display:inline-block" height="150" src="img/pokedex.png" alt="pokedex"/><br/>
 
         </section>
+
+				<section>
+					<img style="transform:translateX(40px);" class="no-border" src="img/blog1.png" width=600/>
+					<img style="transform:translateX(-40px);" class="no-border" src="img/blog2.png" width=600/>
+					<img style="transform:translateX(40px);" class="no-border" src="img/blog3.png" width=600/>
+					<img style="transform:translateX(-40px);" class="no-border" src="img/blog4.png" width=600/>
+					<img style="transform:translateX(40px);" class="no-border" src="img/blog5.png" width=600/>
+					<img style="transform:translateX(-40px);" class="no-border" src="img/blog6.png" width=600/>
+				</section>
 
         <section>
           <h2>What is a <br/> "progressive web app"?</h2>
@@ -582,7 +589,7 @@ meta.content = '#4169E1';</code></pre>
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
-      
+
       function playVideo() {
         var videos = Array.from(
           document.querySelectorAll('section.present video'));
@@ -605,7 +612,7 @@ meta.content = '#4169E1';</code></pre>
         if(notes) {
           console.info(notes.innerHTML.replace(/\n\s+/g,'\n'));
         }
-        
+
         playVideo();
 
         clearInterval(randomizedTextTimeout);
