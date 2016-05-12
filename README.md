@@ -1,4 +1,4 @@
-Progressive Web Apps workshop
+Progressive Web Apps Hacker Lounge AMA
 =====
 
-Nolan's workshop on Progressive Web Apps for JSConfBP.
+Nolan's Hacker Lounge AMA on Progressive Web Apps
